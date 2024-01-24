@@ -1,0 +1,58 @@
+.contato {
+    background-color: var(--fundo1);
+    padding: 1rem;
+}
+
+.contato__titulo {
+    background: var(--auxiliar4);
+    background-clip: text;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.contato__email {
+    padding: 1rem;
+    border: 2px solid var(--auxiliar4);
+    border-radius: 1.5rem;
+    width: 90%;
+    color: var(--auxiliar4);
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte1);
+    color: var(--auxiliar4);
+    padding-left: 2rem;
+}
+
+.contato__titulo, .contato__texto {
+    background: var(--auxiliar4);
+    background-clip: text;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        font-size: 1.5rem;
+    }
+
+    .contato__descricao {
+        margin-right: 1rem;
+        width: 30%;
+    }
+
+    .contato__email {
+        width: 40%;
+    }
+}
+
+
