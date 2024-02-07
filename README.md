@@ -1,4 +1,4 @@
-# responsive-site
+# ResponsiveSite
 Example of a responsive site with 3 different sizes
 
 "This isn't something made 100% by me (well, it kind of was). It was something that Alura gave me - by providing a Figma design and helping with the code if needed.
